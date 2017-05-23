@@ -6,7 +6,7 @@ public class Patient {
 	
 	private String name ;
 	private PatientStatus status ;
-	private int queueTime ;
+	private int queueTime ;	//istante di tempo di ingresso nella coda
 	
 	public Patient(String name) {
 		super();
